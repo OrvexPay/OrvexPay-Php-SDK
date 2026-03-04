@@ -1,0 +1,6 @@
+/vendor/
+.github/
+composer.lock
+.php-cs-fixer.cache
+.phpunit.result.cache
+.env

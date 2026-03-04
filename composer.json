@@ -1,0 +1,21 @@
+{
+    "name": "orvexpay/sdk",
+    "description": "Official PHP SDK for the OrvexPay Payment Gateway.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mkanbaz",
+            "email": "mkanbaz@orvexpay.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "OrvexPay\\Sdk\\": "src/"
+        }
+    }
+}
